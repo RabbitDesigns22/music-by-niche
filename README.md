@@ -4,7 +4,7 @@
 
 `music-by-niche` is an agent skill for Claude Code (and any agent that reads `SKILL.md` skills) for agencies and creators who make videos for many clients. Without it, two habits win: the same three tracks under every client, or a random track with nothing to do with the business, like club music under a spa ad. And the mix comes out so loud it drowns the message.
 
-With the skill, the agent maps each client to a niche with common sense: spa or lounge for a beauty salon, percussion for construction, steady industrial for a gas installer, playful for a kids' school, hip-hop for a barbershop. It picks from a library with a usage log: never a track the client already used, never one any client used within 3 weeks, and it stops and asks for more tracks instead of repeating. Only sources whose license allows paid ads, and loudness checked on the final export.
+With the skill, the agent maps each client to a niche with common sense: spa or lounge for a beauty salon, percussion for construction, steady industrial for a gas installer, playful for a kids' school, hip-hop for a barbershop. It picks at random from a library with a usage log: never a track the client already used, never one another client in the same niche used, never one any client used within 3 weeks. When it runs out, it stops and asks for more tracks instead of repeating. It only uses sources whose license allows paid ads, keeps a license proof for every track, puts the attribution line in the ad copy for CC-BY music, and checks loudness on the final export.
 
 ## See the difference
 
@@ -16,7 +16,7 @@ With the skill, the agent maps each client to a niche with common sense: spa or 
 
 **Skip it if** you compose music or need beat-sync editing rules (use a beat-sync skill for the cut).
 
-**Status:** new. Built from the author's own setup (many weekly Meta ad videos for spas, a gas installer, construction, schools, retail), from repeated complaints: "the same songs in every video", "the audio is too hard", and the owner's order to match music to the business. Tested with and without the skill on 3 cases: 6/6 with it, 4.5/6 without. The reference implementation the author runs is a small Python picker with tests for every rule. MIT. Issues welcome.
+**Status:** version 2 (same-niche rule, random pick, license proof per track, attribution in the copy). Built from the author's own setup (many weekly Meta ad videos for spas, a gas installer, construction, schools, retail), from repeated complaints: "the same songs in every video", "the audio is too hard", and the owner's order to match music to the business. Tested with and without the skill on 3 cases: 6/6 with it, 4.5/6 without. The reference implementation the author runs is a small Python picker with tests for every rule. MIT. Issues welcome.
 
 ## Install
 
