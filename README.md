@@ -16,7 +16,7 @@ With the skill, the agent maps each client to a niche with common sense: spa or 
 
 **Skip it if** you compose music or need beat-sync editing rules (use a beat-sync skill for the cut).
 
-**Status:** version 2 (same-niche rule, random pick, license proof per track, attribution in the copy). Built from the author's own setup (many weekly Meta ad videos for spas, a gas installer, construction, schools, retail), from repeated complaints: "the same songs in every video", "the audio is too hard", and the owner's order to match music to the business. Tested with and without the skill on 3 cases: 6/6 with it, 4.5/6 without. The reference implementation the author runs is a small Python picker with tests for every rule. MIT. Issues welcome.
+**Status:** version 3 (adds sound effects: real CC0/CC-BY recordings per on-screen cue, credited, checked by ear with [earshot](https://github.com/leonxlnx/earshot) + real-sound; version 2 added the same-niche rule, random pick, license proof per track and attribution in the copy). Built from the author's own setup (many weekly Meta ad videos for spas, a gas installer, construction, schools, retail), from repeated complaints: "the same songs in every video", "the audio is too hard", and the owner's order to match music to the business. Tested with and without the skill on 3 cases: 6/6 with it, 4.5/6 without. The reference implementation the author runs is a small Python picker with tests for every rule. MIT. Issues welcome.
 
 ## Install
 
