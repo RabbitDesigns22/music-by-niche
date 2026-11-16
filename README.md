@@ -21,7 +21,7 @@ With the skill, the agent maps each client to a niche with common sense: spa or 
 ## Install
 
 ```bash
-npx skills add RabbitDesigns22/music-by-niche
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/music-by-niche/tree/98383ed66480d165d8c3fd9e6c95cf3d8ad8a794
 ```
 
 Or copy `skills/music-by-niche/` into `~/.claude/skills/`.
@@ -35,7 +35,7 @@ Or copy `skills/music-by-niche/` into `~/.claude/skills/`.
 
 **Música por rubro.** La pista suena al negocio del cliente: spa o lounge para un salón de belleza, percusión para construcción, industrial para gas, infantil para una escuela y hip-hop para una barbería. Nunca repite pista en el mismo cliente, y nadie usa la misma en 3 semanas. Si se acaban las pistas, se detiene y pide bajar más en vez de repetir. Solo usa fuentes cuya licencia permite anuncios pagados, y revisa el volumen en el video final.
 
-Instalar: `npx skills add RabbitDesigns22/music-by-niche`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/music-by-niche/tree/98383ed66480d165d8c3fd9e6c95cf3d8ad8a794`
 
 If it saved you a redo, a star helps other people find it.
 
